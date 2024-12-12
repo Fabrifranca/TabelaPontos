@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabela de Pontos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tabela de Pontos</h1>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Pontos</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>São Paulo</td>
+            <td id="sp-pontos">0</td>
+            <td><button onclick="addPonto('sp')">+</button> <button onclick="removePonto('sp')">-</button></td>
+        </tr>
+        <tr>
+            <td>Corinthians</td>
+            <td id="cor-pontos">0</td>
+            <td><button onclick="addPonto('cor')">+</button> <button onclick="removePonto('cor')">-</button></td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
